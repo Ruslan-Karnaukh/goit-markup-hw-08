@@ -1,0 +1,24 @@
+@import './utils/normalize';
+@import './utils/variables';
+@import './utils/containers';
+
+
+@import './base/reset';
+@import './base/comand';
+
+
+@import './components/beack-drop';
+@import './components/logo';
+@import './components/nav';
+@import './components/subscription';
+@import './components/socials_icons';
+
+
+@import './layout/page_header';
+@import './layout/hero';
+@import './layout/section_work';
+@import './layout/section_features';
+@import './layout/section_team';
+@import './layout/section_client';
+@import './layout/footer';
+@import './layout/portfolio';

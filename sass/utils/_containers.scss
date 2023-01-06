@@ -1,0 +1,29 @@
+.section{
+    @media screen and (max-width: 1199px){
+    padding: 60px 0;
+    }
+   
+   @media screen and (min-width: 1200px) {
+    padding: 94px 0;
+   } 
+}
+
+.container{
+  
+  
+    @media screen and (min-width: 1200px){
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    }
+    @media screen and (max-width: 1199px){
+        width: 768px;
+        margin: 0 auto;
+        padding: 0 15px;
+        }
+    @media screen and (max-width: 767px){
+        width: 480px;
+        margin: 0 auto;
+        padding: 0 15px;
+        }
+}

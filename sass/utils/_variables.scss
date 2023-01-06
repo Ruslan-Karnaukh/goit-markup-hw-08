@@ -1,0 +1,25 @@
+
+
+// colors
+$color-basic: #fff;
+$color-hover: #2196F3;
+$color-brand: #212121;
+$color-paragraph: #757575;
+$color-icon: #AFB1B8;
+
+// 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+
