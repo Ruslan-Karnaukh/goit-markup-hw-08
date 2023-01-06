@@ -1124,8 +1124,8 @@ body {
 }
 
 .hero {
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(100%, rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/imeges-hero/hero_mobile.jpg);
-  background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4) 100%, rgba(47, 48, 58, 0.4) 100%), url(/images/imeges-hero/hero_mobile.jpg);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(100%, rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(./images/imeges-hero/hero_mobile.jpg);
+  background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4) 100%, rgba(47, 48, 58, 0.4) 100%), url(./images/imeges-hero/hero_mobile.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1137,38 +1137,38 @@ body {
 }
 @media screen and (min-width: 480px) {
   .hero {
-    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(100%, rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/imeges-hero/hero_mobile.jpg);
-    background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4) 100%, rgba(47, 48, 58, 0.4) 100%), url(/images/imeges-hero/hero_mobile.jpg);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(100%, rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(./images/imeges-hero/hero_mobile.jpg);
+    background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4) 100%, rgba(47, 48, 58, 0.4) 100%), url(./images/imeges-hero/hero_mobile.jpg);
   }
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero {
-    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(100%, rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/imeges-hero/hero_mobile-x2.jpg);
-    background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4) 100%, rgba(47, 48, 58, 0.4) 100%), url(/images/imeges-hero/hero_mobile-x2.jpg);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(100%, rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(./images/imeges-hero/hero_mobile-x2.jpg);
+    background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4) 100%, rgba(47, 48, 58, 0.4) 100%), url(./images/imeges-hero/hero_mobile-x2.jpg);
   }
 }
 @media screen and (min-width: 767px) {
   .hero {
-    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(100%, rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/imeges-hero/hero_table.jpg);
-    background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4) 100%, rgba(47, 48, 58, 0.4) 100%), url(/images/imeges-hero/hero_table.jpg);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(100%, rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(./images/imeges-hero/hero_table.jpg);
+    background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4) 100%, rgba(47, 48, 58, 0.4) 100%), url(./images/imeges-hero/hero_table.jpg);
   }
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero {
-    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(100%, rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/imeges-hero/hero_table-x2.jpg);
-    background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4) 100%, rgba(47, 48, 58, 0.4) 100%), url(/images/imeges-hero/hero_table-x2.jpg);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(100%, rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(./images/imeges-hero/hero_table-x2.jpg);
+    background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4) 100%, rgba(47, 48, 58, 0.4) 100%), url(./images/imeges-hero/hero_table-x2.jpg);
   }
 }
 @media screen and (min-width: 1200px) {
   .hero {
-    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(100%, rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/imeges-hero/hero_img.jpg);
-    background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4) 100%, rgba(47, 48, 58, 0.4) 100%), url(/images/imeges-hero/hero_img.jpg);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(100%, rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(./images/imeges-hero/hero_img.jpg);
+    background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4) 100%, rgba(47, 48, 58, 0.4) 100%), url(./images/imeges-hero/hero_img.jpg);
   }
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero {
-    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(100%, rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/imeges-hero/hero_img-x2.jpg);
-    background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4) 100%, rgba(47, 48, 58, 0.4) 100%), url(/images/imeges-hero/hero_img-x2.jpg);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(100%, rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(./images/imeges-hero/hero_img-x2.jpg);
+    background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4) 100%, rgba(47, 48, 58, 0.4) 100%), url(./images/imeges-hero/hero_img-x2.jpg);
   }
 }
 

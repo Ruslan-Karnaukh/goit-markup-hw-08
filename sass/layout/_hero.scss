@@ -1,36 +1,36 @@
 .hero{
-    background-image: linear-gradient(to top, #2F303A66 100%, #2F303A66 100% ), url(/images/imeges-hero/hero_mobile.jpg);
+    background-image: linear-gradient(to top, #2F303A66 100%, #2F303A66 100% ), url(./images/imeges-hero/hero_mobile.jpg);
 
     @media screen and (min-width: 480px){
-        background-image: linear-gradient(to top, #2F303A66 100%, #2F303A66 100% ), url(/images/imeges-hero/hero_mobile.jpg);
+        background-image: linear-gradient(to top, #2F303A66 100%, #2F303A66 100% ), url(./images/imeges-hero/hero_mobile.jpg);
     }
         @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
          
-            background-image: linear-gradient(to top, #2F303A66 100%, #2F303A66 100% ), url(/images/imeges-hero/hero_mobile-x2.jpg);
+            background-image: linear-gradient(to top, #2F303A66 100%, #2F303A66 100% ), url(./images/imeges-hero/hero_mobile-x2.jpg);
         }
 
     @media screen and (min-width: 767px) {
         
-            background-image: linear-gradient(to top, #2F303A66 100%, #2F303A66 100% ), url(/images/imeges-hero/hero_table.jpg);
+            background-image: linear-gradient(to top, #2F303A66 100%, #2F303A66 100% ), url(./images/imeges-hero/hero_table.jpg);
     }
         @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
          
-            background-image: linear-gradient(to top, #2F303A66 100%, #2F303A66 100% ), url(/images/imeges-hero/hero_table-x2.jpg);
+            background-image: linear-gradient(to top, #2F303A66 100%, #2F303A66 100% ), url(./images/imeges-hero/hero_table-x2.jpg);
         }
     
       
     @media screen  and (min-width: 1200px){
-        background-image: linear-gradient(to top, #2F303A66 100%, #2F303A66 100% ), url(/images/imeges-hero/hero_img.jpg);
+        background-image: linear-gradient(to top, #2F303A66 100%, #2F303A66 100% ), url(./images/imeges-hero/hero_img.jpg);
     }
         @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
          
-            background-image: linear-gradient(to top, #2F303A66 100%, #2F303A66 100% ), url(/images/imeges-hero/hero_img-x2.jpg);
+            background-image: linear-gradient(to top, #2F303A66 100%, #2F303A66 100% ), url(./images/imeges-hero/hero_img-x2.jpg);
         }
    
    
