@@ -15,59 +15,137 @@
 </head>
 <body>
   <header class="header">
-    <div class="header__block container">
-      <nav class="nav nav__block">
-        <a class="logo header__block" href="./index.html"
-          ><span class="logo__text">Web</span>Studio</a
-        >
-        <ul class="nav__list">
-          <li class="nav__items">
-            <a class="nav__link " href="./index.html">Студія</a>
-          </li>
-          <li class="nav__items">
-            <a class="nav__link nav__link--current" href="./portfolio.html">Портфоліо</a>
-          </li>
-          <li class="nav__items">
-            <a class="nav__link" href="./index.html">Контакти</a>
-          </li>
-        </ul>
-      </nav>
-
-      <ul class="contact">
-        <li class="contact__items">
-          <div class="contact__block">
-            <a class="contact__link" href="mailto:info@devstudio.com"
-            >
-            <svg class="contact__icon">
-              <use href="./images/icons.svg#icon-envelope">
-
-              </use>
-            </svg>
-            info@devstudio.com</a
-          >
-        </div>
-        </li>
-          
-        <li class="contact__items">
-          <div class="contact__block">
-          <a class="contact__link" href="tel:+380961111111"
-            >
-            
-              <svg class="contact__icon">
-                <use href="./images/icons.svg#icon-smartphone">
-
-                </use>
-              </svg>
-            
-            +38 096 111 11 11</a
-          >
-        </div>
-        </li>
-      
-      </ul>
+    <div class="header__block--mob container">
+      <a class="logo header__block--mob" href="./index.html"
+      ><span class="logo__text">Web</span>Studio</a > 
+      <button class="mob__button js-open-menu" aria-expanded="false" aria-controls="mob__menu" type="button">
+        <svg width="40" height="40">
+          <use href="./images/icons.svg#icon-menu"></use>
+        </svg>
+      </button>
     </div>
+    <div class="mob__menu container js-menu-container">
+     <div class="nav__menu--margin">
+        
+        <div class="mob__button--block">
+          <button class="mob__button js-close-menu" type="button">
+            <svg width="40" height="40">
+              <use  href="./images/icons.svg#icon-close-modal"></use>
+            </svg>
+          </button>
+        </div>  
+        <div class="menu__content"> 
+        <nav class="nav nav__block">  
+           <ul class="nav__list nav__display-none">
+             <li class="nav__items">
+               <a class="nav__link nav__link--current" href="./index.html">Студія</a>
+             </li>
+             <li class="nav__items">
+               <a class="nav__link" href="./portfolio.html">Портфоліо</a>
+             </li>
+             <li class="nav__items">
+               <a class="nav__link" href="./index.html">Контакти</a>
+             </li>
+           </ul>
+          </nav>
     
-</header>
+         
+         <div class="menu__bottom">
+          <ul class="contact nav__block ">
+            <li class="contact__items">
+              <div class="contact__block ">
+                <a class="contact__link" href="mailto:info@devstudio.com"
+                >
+                <svg class="contact__icon">
+                  <use href="./images/icons.svg#icon-envelope">
+  
+                  </use>
+                </svg>
+                info@devstudio.com</a
+              >
+            </div>
+            </li>
+              
+            <li class="contact__items">
+              <div class="contact__block contact__block--margin-bottom">
+              <a class="contact__link contact__link--color" href="tel:+380961111111"
+                >
+                
+                  <svg class="contact__icon">
+                    <use href="./images/icons.svg#icon-smartphone">
+    
+                    </use>
+                  </svg>
+                
+                +38 096 111 11 11</a
+              >
+            </div>
+            </li>
+          
+          </ul>
+          <div class="beackdrop__social nav__block">
+            <ul class="beackdrop__list">
+              <li class="beackdrop__items"><a class="beackdrop__link" href="">Instagram</a></li>
+              <li class="beackdrop__items"><a class="beackdrop__link" href="">Twitter</a></li>
+              <li class="beackdrop__items"><a class="beackdrop__link" href="">Facebook</a></li>
+              <li class="beackdrop__items"><a class="beackdrop__link" href="">LinkedIn</a></li>
+            </ul>
+    </div>
+         </div>
+         </div>
+     </div>
+    </div>
+    <div class="header__block container">
+        <nav class="nav nav__block">
+          <a class="logo header__block" href="./index.html"
+          ><span class="logo__text">Web</span>Studio</a >        
+             <ul class="nav__list nav__display-none">
+               <li class="nav__items">
+                 <a class="nav__link nav__link--current" href="./index.html">Студія</a>
+               </li>
+               <li class="nav__items">
+                 <a class="nav__link" href="./portfolio.html">Портфоліо</a>
+               </li>
+               <li class="nav__items">
+                 <a class="nav__link" href="./index.html">Контакти</a>
+               </li>
+             </ul>
+            </nav>
+            <ul class="contact">
+              <li class="contact__items">
+                <div class="contact__block contact__block--margin-bottom">
+                  <a class="contact__link" href="mailto:info@devstudio.com"
+                  >
+                  <svg class="contact__icon">
+                    <use href="./images/icons.svg#icon-envelope">
+    
+                    </use>
+                  </svg>
+                  info@devstudio.com</a
+                >
+              </div>
+              </li>
+                
+              <li class="contact__items">
+                <div class="contact__block">
+                <a class="contact__link contact__link--color" href="tel:+380961111111"
+                  >
+                  
+                    <svg class="contact__icon">
+                      <use href="./images/icons.svg#icon-smartphone">
+      
+                      </use>
+                    </svg>
+                  
+                  +38 096 111 11 11</a
+                >
+              </div>
+              </li>
+            
+            </ul>
+   </div>
+   
+  </header>
     <main>
         <section class="section">
           <div class="container">
@@ -99,8 +177,7 @@
                 class="portfolio__img"
                 src="./images/images-portfolio/img.jpg"
                 alt="навушники"
-                width="370"
-                height="294"
+                
               />
   
                </div>
@@ -115,8 +192,7 @@
                 class="portfolio__img"
                 src="./images/images-portfolio/img2.jpg"
                 alt="навушники"
-                width="370"
-                height="294"
+                
               />
               <div class="overlay">
                 <p class="overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
@@ -135,8 +211,7 @@
                 class="portfolio__img"
                 src="./images/images-portfolio/img3.jpg"
                 alt="навушники"
-                width="370"
-                height="294"
+                
               />
               <div class="overlay">
                 <p class="overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
@@ -152,8 +227,7 @@
               <img class="portfolio__img"
               src="./images/images-portfolio/img4.jpg"
               alt="навушники"
-              width="370"
-              height="294"
+              
             />
             <div class="overlay">
               <p class="overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
@@ -169,8 +243,7 @@
               <img class="portfolio__img"
               src="./images/images-portfolio/img5.jpg"
               alt="дві коробки"
-              width="370"
-              height="294"
+             
             />
             <div class="overlay">
               <p class="overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
@@ -186,8 +259,7 @@
                 <img
                 class="portfolio__img"
                 src="./images/images-portfolio/img6.jpg"
-                width="370"
-                height="294"
+                
               />
               <div class="overlay">
                 <p class="overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
@@ -206,8 +278,7 @@
                 class="portfolio__img"
                 src="./images/images-portfolio/img7.jpg"
                 alt="навушники"
-                width="370"
-                height="294"
+                
               />
               <div class="overlay">
                 <p class="overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
@@ -226,8 +297,7 @@
                 class="portfolio__img"
                 src="./images/images-portfolio/img8.jpg"
                 alt="навушники"
-                width="370"
-                height="294"
+               
               />
               <div class="overlay">
                 <p class="overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
@@ -244,8 +314,7 @@
                 class="portfolio__img"
                 src="./images/images-portfolio/img9.jpg"
                 alt="навушники"
-                width="370"
-                height="294"
+                
               />
               <div class="overlay">
                 <p class="overlay__text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
@@ -262,70 +331,72 @@
     </main>
     <footer class="footer">
       <div class="footer__flex container">
-        <div class="footer__block">
-          <a class="logo logo__color" href="./index.html"
-            ><span class="logo__text">Web</span>Studio</a
-          >
-          <address class="address">
-            <ul class="adress__list">
-              <li class="adress__items">
-                <a class="adress__link adress__link--color " href="#"> м. Київ, пр-т Лесі Українки, 26</a>
-              </li>
-              <li class="adress__items">
-                <a class="adress__link " href=" mailto:info@devstudio.com"
-                  >info@devstudio.com</a
-                >
-              </li>
-              <li class="adress__items">
-                <a class="adress__link " href="tel:+380961111111"
-                  >+38 096 111 11 11</a
-                >
-              </li>
-            
-          </address>
-        </div>
-          <div class="social_block">
-          </ul>
-          <h2 class="social__title">Приєднуетесь</h2>
-          <ul class="social__list">
-            <li class="social__items">
-              <a class="social__link social__link--color" href="">
-              <svg class="social__icon"> 
-                <use href="./images/icons.svg#icon-instagram" width="44" height="44">
-
-              </use>
-            </svg>
-            </a>
-            </li>
-            <li class="social__items">
-              <a class="social__link social__link--color" href="">
-              <svg class="social__icon"> 
-                <use href="./images/icons.svg#icon-twiter" width="44" height="44">
-
-              </use>
-            </svg>
-            </a>
-            </li>
-            <li class="social__items">
-              <a class="social__link social__link--color" href="">
-              <svg class="social__icon"> 
-                <use href="./images/icons.svg#icon-facebock" width="44" height="44">
-
-              </use>
-            </svg>
-            </a>
-            </li>
-            <li class="social__items">
-              <a class="social__link social__link--color" href="">
-              <svg class="social__icon"> 
-                <use href="./images/icons.svg#icon-in" width="44" height="44">
-
-              </use>
-            </svg>
-            </a>
-            </li>
-          </ul>
+        <div class="footer__table">
+          <div class="footer__block">
+            <a class="logo logo__color" href="./index.html"
+              ><span class="logo__text">Web</span>Studio</a
+            >
+            <address class="address">
+              <ul class="adress__list">
+                <li class="adress__items">
+                  <a class="adress__link adress__link--color " href="#"> м. Київ, пр-т Лесі Українки, 26</a>
+                </li>
+                <li class="adress__items">
+                  <a class="adress__link " href=" mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <li class="adress__items">
+                  <a class="adress__link " href="tel:+380961111111"
+                    >+38 096 111 11 11</a
+                  >
+                </li>
+              
+            </address>
           </div>
+            <div class="social__block">
+            </ul>
+            <h2 class="social__title">Приєднуетесь</h2>
+            <ul class="social__list">
+              <li class="social__items">
+                <a class="social__link social__link--color" href="">
+                <svg class="social__icon"> 
+                  <use href="./images/icons.svg#icon-instagram" width="44" height="44">
+  
+                </use>
+              </svg>
+              </a>
+              </li>
+              <li class="social__items">
+                <a class="social__link social__link--color" href="">
+                <svg class="social__icon"> 
+                  <use href="./images/icons.svg#icon-twiter" width="44" height="44">
+  
+                </use>
+              </svg>
+              </a>
+              </li>
+              <li class="social__items">
+                <a class="social__link social__link--color" href="">
+                <svg class="social__icon"> 
+                  <use href="./images/icons.svg#icon-facebock" width="44" height="44">
+  
+                </use>
+              </svg>
+              </a>
+              </li>
+              <li class="social__items">
+                <a class="social__link social__link--color" href="">
+                <svg class="social__icon"> 
+                  <use href="./images/icons.svg#icon-in" width="44" height="44">
+  
+                </use>
+              </svg>
+              </a>
+              </li>
+            </ul>
+            </div>
+        </div>
           <div class="subscription">
             <form class="subscription__form">
               <label class="subscription__lable" for="subscription__email">Підпишіться на розсилку</label>
@@ -340,5 +411,6 @@
           </div>
       </div>
   </footer>
+  <script src="./js/mobile-menu.js"></script>
 </body>
 </html>

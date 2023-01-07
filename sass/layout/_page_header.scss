@@ -5,9 +5,21 @@
     }
 }
 .header__block{
+    @media screen and (max-width: 767px){
+        display: none;
+        &--mob{
+            display: flex;
+            justify-content: space-between;
+        }
+    }
     @media screen and (min-width: 768px){
         display: flex;
         align-items: center;
+    }
+}
+.header__block--mob{
+    @media screen and (min-width: 768px){
+        display: none;
     }
 }
 
