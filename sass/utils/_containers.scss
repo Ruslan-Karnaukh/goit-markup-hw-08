@@ -1,5 +1,5 @@
 .section{
-    overflow: hidden;
+    // overflow: hidden;
     @media screen and (max-width: 1199px){
     padding: 60px 0;
     }
@@ -27,4 +27,9 @@
         margin: 0 auto;
         padding: 0 15px;
         }
+        @media screen and (max-width: 479px){
+            width: 320px;
+            margin: 0 auto;
+            padding: 0 15px;
+            }
 }

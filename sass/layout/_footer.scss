@@ -20,6 +20,9 @@
 
 }
 .footer__table{
+    @media screen and (max-width: 767px){
+        margin-bottom: 60px;
+    }
     @media screen and (min-width: 768px){
         display: flex;
         justify-content: space-around;
@@ -61,7 +64,6 @@
 .social__block{
     @media screen and (max-width: 767px){
         margin-top: 60px;
-        margin-bottom: 60px;
     }
     @media screen and (min-width: 768px){
         margin-top: 10px;
